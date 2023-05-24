@@ -1,9 +1,12 @@
 #' Compute the Gini Coefficient
 #'
+#' @description
+#' Computes the Gini coefficient based on (possibly weighted) sample data.
+#'
 #' @param x a vector containing at least non-negative elements
 #' @param weights an optional vector of sample weights for x
 #'
-#' @return the Gini coefficient (between 0 and 1).
+#' @return The Gini coefficient (between 0 and 1).
 #' @export
 #'
 #' @examples
@@ -15,5 +18,5 @@
 #' w <- runif(n=length(x))
 #' gini2(x,w)
 gini2 <- function(x, weights = rep(1, length = length(x))){
-  reldist::gini
+  reldist::gini(x,weights)
 }

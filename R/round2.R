@@ -1,4 +1,7 @@
-#' Round away from zero
+#' Rounding of Numbers Away From Zero
+#'
+#' @description
+#' `round2` adopts the convention of rounding away from zero.
 #'
 #' @param x a numeric vector to round.
 #' @param digits the desired number of decimals, by default 0.

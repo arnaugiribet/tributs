@@ -2,7 +2,7 @@
 % Please edit documentation in R/round2.R
 \name{round2}
 \alias{round2}
-\title{Round away from zero}
+\title{Rounding of Numbers Away From Zero}
 \usage{
 round2(x, digits = 0)
 }
@@ -15,7 +15,7 @@ round2(x, digits = 0)
 A numeric vector.
 }
 \description{
-Round away from zero
+\code{round2} adopts the convention of rounding away from zero.
 }
 \examples{
 x <- c(-2.5,-1.5,-0.5,0.5,1.5,2.5)

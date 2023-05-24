@@ -12,10 +12,10 @@ gini2(x, weights = rep(1, length = length(x)))
 \item{weights}{an optional vector of sample weights for x}
 }
 \value{
-the Gini coefficient (between 0 and 1).
+The Gini coefficient (between 0 and 1).
 }
 \description{
-Compute the Gini Coefficient
+Computes the Gini coefficient based on (possibly weighted) sample data.
 }
 \examples{
 # generate vector (of incomes)

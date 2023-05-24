@@ -14,10 +14,10 @@ kakwani(var1, var2, weights = 1)
 \item{weights}{an optional vector of sample weights}
 }
 \value{
-the Kakwani coefficient.
+The Kakwani coefficient.
 }
 \description{
-Compute the Kakwani Coefficient
+Computes the Kakwani index for the redistributive effect of a progressive tax system.
 }
 \examples{
 # This is an example

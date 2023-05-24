@@ -1,10 +1,13 @@
 #' Compute the Kakwani Coefficient
 #'
+#' @description
+#' Computes the Kakwani index for the redistributive effect of a progressive tax system.
+#'
 #' @param var1 a numeric vector
 #' @param var2 a numeric vector
 #' @param weights an optional vector of sample weights
 #'
-#' @return the Kakwani coefficient.
+#' @return The Kakwani coefficient.
 #' @export
 #'
 #' @examples
