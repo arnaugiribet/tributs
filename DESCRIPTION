@@ -13,3 +13,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     reldist
+URL: https://github.com/arnaugiribet/tributs
+BugReports: https://github.com/arnaugiribet/tributs/issues
