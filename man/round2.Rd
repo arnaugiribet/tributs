@@ -2,22 +2,22 @@
 % Please edit documentation in R/round2.R
 \name{round2}
 \alias{round2}
-\title{Round up to the nearest unit}
+\title{Round away from zero}
 \usage{
 round2(x, digits = 0)
 }
 \arguments{
-\item{x}{A numeric vector to round up.}
+\item{x}{a numeric vector to round.}
 
-\item{digits}{The desired number of decimals.}
+\item{digits}{the desired number of decimals, by default 0.}
 }
 \value{
 A numeric vector.
 }
 \description{
-Round up to the nearest unit
+Round away from zero
 }
 \examples{
-x <- c(0.5,1.5,2.5)
+x <- c(-2.5,-1.5,-0.5,0.5,1.5,2.5)
 round2(x, digits = 0)
 }

@@ -1,13 +1,13 @@
-#' Round up to the nearest unit
+#' Round away from zero
 #'
-#' @param x A numeric vector to round up.
-#' @param digits The desired number of decimals.
+#' @param x a numeric vector to round.
+#' @param digits the desired number of decimals, by default 0.
 #'
 #' @return A numeric vector.
 #' @export
 #'
 #' @examples
-#' x <- c(0.5,1.5,2.5)
+#' x <- c(-2.5,-1.5,-0.5,0.5,1.5,2.5)
 #' round2(x, digits = 0)
 round2 <- function(x, digits = 0) {
   posneg = sign(x)
