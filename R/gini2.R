@@ -1,0 +1,1 @@
+gini2 <- reldist::gini
